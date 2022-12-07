@@ -1,0 +1,638 @@
+*{
+    padding: 0px;
+    margin-top: 10px;
+    font-family: none;
+}
+body{
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
+    width: 90%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.floatleft{
+    margin-right: 80px;
+    height: 10%;
+    margin-left: -50px;
+}
+.floatcenter{
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+
+}
+a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 20px;
+
+}
+a:hover{
+    color: green;
+}
+#search{
+    padding: 5px 1px 5px 50px;
+    border-radius: 5px;
+    
+}
+.hero-page{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    width: 100%;
+    background-color: white;
+    margin: 20px 0px 5px 5px;
+    padding-right: 110px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 100px;
+}
+#h1{
+    font-size: 40px;
+    font-weight: 900px;
+}
+#p1{
+    font-size: 20px;
+    font-weight: 500;
+}
+#button1{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border-width: 1px;
+    border-color: green;
+    letter-spacing: 1px;
+}
+#button2{
+    padding: 15px;
+    border-color: green;
+    color: green;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+#section2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    margin: 50px 0px 5px 5px;
+    padding-right: 110px;
+    border-radius: 10px;
+    
+}
+#left2{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+#right2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+#button3{
+    padding: 1.5px;
+    margin-right: 80%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(179, 226, 179);
+    color: green;
+    font-weight: 800;
+
+
+}
+#h12{
+    font-size: 40px;
+    padding: 30px 0px 0px 0px;
+    font-weight: 900px;
+
+}
+#p12{
+    font-size: 25px;
+    font-weight: 500px;
+    padding-right: 150px;
+    margin-top: -30px;
+}
+#button4{
+    margin-right: 75%;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    font-weight: 900px;
+    border-width: 1px;
+    border-radius: 7px;
+    
+}
+#button4:hover{
+    cursor: pointer;
+    color: green;
+    background-color: white;
+    border-width: 1px;
+    border-color: green;
+}
+#section3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    margin: 50px 0px 5px 5px;
+    padding-right: 110px;
+    border-radius: 10px;
+    
+}
+#right3{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+
+}
+#left3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 100px 0px 0px 100px;
+
+}
+#button5{
+    padding: 1.5px;
+    margin-right: 80%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(179, 226, 179);
+    color: green;
+    font-weight: 800;
+
+}
+#h13{
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+#p13{
+    padding-right: 150px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: -10px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+
+}
+#time{
+    margin-right: 50px;
+
+}
+#fire{
+    color: green;
+
+}
+#fire-icon{
+    width: 10px;
+    height: 15px;
+    margin-right: 3px;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+
+}
+#tray-cover{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    color: green;
+}
+#section4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    margin: 50px 10px 10px 50px;
+}
+#image4{
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+#h14{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900px;
+
+}
+#p14{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+#section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 0px 5px 5px;
+    padding-right: 110px;
+    
+
+}
+#left5{
+    height: 30%;
+    width: 50%;
+    margin-left: 100px;
+
+}
+#cellular{
+    height: min-content;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#right5{
+    display: flex;
+    flex-direction: column;
+}
+#button6{
+    padding: 5px 10px 5px 10px;
+    margin-right: 80%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(179, 226, 179);
+    color: green;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+#h15{
+    font-size: 40px;
+    font-weight: 900px;
+
+}
+#p15{
+    font-size: 20px;
+    font-weight: 700px;
+    padding-right: 150px;
+}
+#app-icons{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+h4{
+    font-size: 30px;
+    font-weight: 300px;
+    margin-bottom: -50px;
+}
+#appstore{
+    height: 100px;
+    width: 100px;
+}
+#playstore{
+    height: 100px;
+    width: 100px;
+}
+#section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 50px 10px 10px 120px;
+    padding: 50px 1px 50px 1px;
+    border-radius: 10px;
+}
+
+#email{
+    padding: 15px 150px 15px 15px;
+    border-radius: 7px;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+}
+#button7{
+    padding: 15px;
+    margin-left: 5px;
+    background-color: white;
+    border-width: 1px;
+    color: green;
+    font-size: 14px;
+    font-weight: 900px;
+    cursor: pointer;
+    border: none;
+
+}
+#h16{
+    text-align: center;
+    color: white;
+}
+.bottomnav{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10px 10px 120px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px;
+    margin-top: 50px;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 80px 80px 0px;
+    }
+#links{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    font-size: 12px;
+}
+#company{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+#support{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12px;
+}
+#intouch{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 12px;
+}
+
+ul{
+    font-size: 16px;
+    padding: -5px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+ul:hover{
+    cursor: pointer;
+    color: green;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    margin: -30px 10px 10px 120px;
+    background-color: green;
+    margin-top: -10px;
+    border-radius: 0px 0px 10px 10px ;
+    margin-bottom: 20px;
+}
+#floatleft{
+    margin-left: 200px;
+    color: white;
+    font-weight: 700px;
+
+
+}
+#floatright{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    
+}
+#footer-icon{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: 65%;
+        height: 100vh;
+
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .floatleft{
+        margin-left: 180px;
+    }
+    .floatcenter{
+        margin-left: 200px;
+
+    }
+    #search{
+        display: none;
+    }
+    .navbar a:not(:first-child) {
+        display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }  
+  .hero-page{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  #left{
+    flex-direction: column;
+    font-size: 16px;
+    padding: 0px;
+
+  }
+  #button1:hover{
+    cursor: pointer;
+    color: green;
+    background-color: white;
+    border-width: 1px;
+    border-color: green;
+
+  }
+  #button2{
+    margin-bottom: 30px;
+  }
+  #right{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+  }
+  #section2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #button3{
+    margin-right: 20%;
+    padding: 3px;
+  }
+  #button4{
+    margin-right: 20%;
+    padding: 3px;
+  }
+  #h12{
+    font-size: 16px;
+
+  }
+  #p12{
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  #image2{
+    width: 100%;
+    height: 100px;
+  }
+  #section3{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  #image3{
+    height: 100%;
+    width: 100%;
+  }
+  #left3{
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  #button5{
+    margin-right: 50%;
+    margin-left: 20%;
+    
+  }
+
+  #image4{
+    width: 100%;
+    height: 60%;
+    margin-right: 50px;
+
+ }
+ #h14{
+    font-size: 30px;
+    word-spacing: 3px;
+ }
+ #section5{
+    display: flex;
+    flex-direction: column;
+
+ }
+ #right5{
+    margin-left: 200px;
+ }
+ #h15{
+    margin-left: 50px;
+ }
+ #p15{
+    margin-left: 50px;
+ }
+ #app-icons{
+    margin-right: 100px;
+    margin-bottom: 10px;
+
+    
+ }
+ #cellular{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 80%;
+    width: 100%;
+ }
+ #button6{
+    margin-right: 50%;
+    margin-left: 20%;
+    
+ }
+ #section6{
+    padding: 10px;
+    margin-right: -80px;
+    margin-left: 30px;
+
+ }
+ #email{
+    padding: 10px 100px 10px 10px;
+ }
+ #button7{
+    padding: 10px;
+ }
+ .bottomnav{
+    padding: 10px;
+    margin-right: -90px;
+    margin-left: 10px;
+ }
+ #footer{
+    padding: 3px;
+    margin-right: -90px;
+    margin-left: 10px;
+ }
+ #floatleft{
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    padding: 3px;
+ }
+
+
+
+
+}
